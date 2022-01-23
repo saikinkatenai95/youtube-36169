@@ -1,0 +1,108 @@
+<% firstword = "" %>
+<% secondword = "" %>
+<% choice_id = "" %>
+<% result = "" %>
+<% @videos.each do |word| %>
+  <% firstword = word.firstword %>
+  <% secondword = word.secondword %>
+  <% choice_id = word.choice_id %>
+  <% result = word.result %>
+<% end %>
+
+<% if result == 24 %>
+  <% if choice_id == 1 %>
+    <% keyword = "#{firstword} #{secondword}"%>
+    <% @youtube_data= find_video(keyword)%>
+  <% elsif choice_id ==  2 %>
+    <% keyword = "#{firstword} -#{secondword}"%>
+    <% @youtube_data= find_video(keyword)%>
+  <% elsif choice_id == 3 %>
+    <% keyword = "#{firstword} | #{secondword}"%>
+    <% @youtube_data= find_video(keyword)%>
+  <%elsif choice_id == 4 %>
+    <% keyword = "intitle:#{firstword} #{secondword}"%>
+    <% @youtube_data= find_video(keyword)%>
+  <% end %>
+<% elsif result == 48 %>
+  <% if choice_id == 1 %>
+    <% keyword = "#{firstword} #{secondword}"%>
+    <% @youtube_data= search_video(keyword)%>
+  <% elsif choice_id ==  2 %>
+    <% keyword = "#{firstword} -#{secondword}"%>
+    <% @youtube_data= search_video(keyword)%>
+  <% elsif choice_id == 3 %>
+    <% keyword = "#{firstword} | #{secondword}"%>
+    <% @youtube_data= search_video(keyword)%>
+  <%elsif choice_id == 4 %>
+    <% keyword = "intitle:#{firstword} #{secondword}"%>
+    <% @youtube_data= search_video(keyword)%>
+  <% end %>
+<% end %>
+
+<div class=video-page>
+  <div class=nav>
+    <div class=header>
+      <div class=image-logo>
+        <%= link_to image_tag("FiLTube-header.png", class:"header-logo"),"/" %>
+      </div>
+    </div>
+    <div class=search-bar>
+      <div class=sub-search-box>
+        <form action="./" method="post">
+        <input type="text">
+        <input type="submit" value="検索">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class=wrapper>
+    <div class=main-wrapper>
+      <% @youtube_data.items.each do |item| %>
+        <div class=video-box>
+          <div class=video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= item.id.video_id %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <% snippet = item.snippet %>
+          <p><%= snippet.published_at %></p>
+          <a class="video_url" href="https://www.youtube.com/watch?v=<%= item.id.video_id %>" target="_blank" ><%= snippet.title %></a>
+          <p><%= snippet.channel_title %></p>
+          <p><%= snippet.description %></p>
+        </div>
+      <% end %>
+    </div>
+    <div class=sub-wrapper>
+      <div class=v-space>
+      広告スペース
+      </div>
+      <div class=category>
+        <ul class=list>
+          <li class=categorylist>
+            <%= link_to 'VALORANT', "/videos" %>
+            VALORANT
+          </li>
+          <li class=categorylist>
+            APEX LEGENDS
+          </li>
+          <li class=categorylist>
+            パズル＆ドラゴンズ
+          </li>
+          <li class=categorylist>
+            モンスターストライク
+          </li>
+          <li class=categorylist>
+            battlefield 2042
+          </li>
+          <li class=categorylist>
+            HALO
+          </li>
+          <li class=categorylist>
+            Among us
+          </li>
+          <li class=categorylist>
+            Phasmo Fobia
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

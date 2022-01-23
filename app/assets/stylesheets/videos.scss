@@ -1,3 +1,191 @@
 // Place all the styles related to the videos controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.logo{
+  height: 300px;
+  margin-bottom: -35px;
+}
+
+.logo-box{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.new-logo{
+  width: 200px;
+  margin: 160px 0px 0px 160px;
+}
+.nav{
+  display: flex;
+  height: 69px;
+  position: sticky;
+  top:0;
+}
+
+
+.header{
+  background-color: #fffdf7;
+  // backdrop-filter: saturate(180%) blur(20px);
+  width: 83%;
+  position: sticky;
+  top:0;
+  z-index: 999;
+}
+
+.image-logo{
+  width: 140px;
+  height: 55px;
+}
+
+.header-logo{
+  margin: 7px 0px 0px 20px;
+  width: 90%;
+  height: 90%;
+}
+
+.sub-search-box{
+  display: flex;
+  margin-top: 20px;
+}
+
+.search-bar{
+  backdrop-filter: saturate(180%) blur(20px);
+  width: 17%;
+}
+
+
+.video-page{
+  width: auto;
+  background-color: #fffdf7;
+}
+
+.wrapper{
+  width: auto;
+  background-color: #fffdf7;
+  display: flex;
+}
+
+.form-space{
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.form{
+  height: 200px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.first-form-box{
+  display: flex;
+  margin-left: 80px;
+}
+
+
+.searchbox{
+  width: 500px;
+  margin: 20px 20px 0px 20px;
+  border: 1px solid #999;
+  padding: 3px 5px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: FontAwesome;
+  text-align: center;
+}
+
+.searchbox-submit{
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  // background: none;
+  color: #3879D9;
+  outline : none;
+  display: inline-block;
+  vertical-align: middle;
+  display: none;
+}
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50px;
+  right: 520px;
+  top: 10px;
+}
+
+#sub_search{
+  margin: 0px 0px 0px 80px;
+}
+
+.button-space{
+  position: relative;
+  width: 800px;
+  margin:20px 0px 0px 300px
+}
+
+#switch_btn {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #949191;
+  line-height: 1;
+  width: 30px;
+  height: 5px;
+  background: currentColor;
+  border-radius: 10px;
+  position: relative;
+}
+
+#switch_btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  transform: rotate(90deg);
+}
+
+
+.main-wrapper{
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-box{
+  margin: 20px;
+  width: 550px;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.v-space{
+  margin: 20px 0px;
+  height: 400px;
+}
+
+.category{
+  margin-left: 20px;
+}
+
+.list{
+  list-style: none;
+}
+
+.categorylist{
+  list-style: none;
+}
+
