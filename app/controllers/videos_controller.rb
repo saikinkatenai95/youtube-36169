@@ -61,7 +61,6 @@ end
     end
   end
 
-
   private
 
   def video_params
