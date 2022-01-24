@@ -22,27 +22,27 @@ ID:admin, PASS:2222
 ![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)
 
 # top page
-トップページは見た目はUIを意識してシンプルに仕上げました。
+トップページは見た目はUIを意識してシンプルに仕上げました。<br><br>
 ![home1](https://user-images.githubusercontent.com/87253195/150743345-02c21728-d6bc-42e7-a192-9523e5be0b70.png)
 
 # 通常検索機能 紹介
 通常検索はgoogleの検索バーと同様に検索バーにキーワードを入力することで<br>
-Youtube動画が検索ができるようになっています。<br>
+Youtube動画が検索ができるようになっています。<br><br>
 ![home2](https://user-images.githubusercontent.com/87253195/150743448-5e4548d2-4b2c-4c86-aecd-6e72a125ff5b.png)
 
 ## 検索結果
-"米津玄師"と入力し、youtubeの"米津玄師"に関する動画が一覧で表示することができます。<br>
+"米津玄師"と入力し、youtubeの"米津玄師"に関する動画が一覧で表示することができます。<br><br>
 ![search1](https://user-images.githubusercontent.com/87253195/150743568-28f7d4ed-4a81-4e57-aa68-58794994f7bc.png)
 
 ## サイト内での操作
 サイト内で動画をそのまま視聴可能、YouTubeページに飛ぶことも可能にしています。<br>
-**サイト内で閲覧できることで、ユーザーがページを切り替える手間が減ります。**<br>
+**サイト内で閲覧できることで、ユーザーがページを切り替える手間が減ります。**<br><br>
 ![demo1](https://user-images.githubusercontent.com/87253195/150743549-748a8804-0932-458c-83a5-d0cc7480d3c4.png)
 
 
 # より高度な検索
-+ボタンを押すことで選択肢が増え、より高度な検索ができるようになります。<br>
-**増える検索項目**
++ボタンを押すことで選択肢が増え、より高度な検索ができるようになります。<br><br>
+### 増える検索項目
 1. 第二キーワード
 1. Filter機能(activeHashで設置)
     1. 2つのキーワードを**含めて**検索
