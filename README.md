@@ -82,5 +82,5 @@
   MYSQL 5.7<br><br>
 
 
-# OTHER
-  Daisuke Sato / 佐藤 大輔.
+# Author
+  **DaisukeSato / 佐藤 大輔**
