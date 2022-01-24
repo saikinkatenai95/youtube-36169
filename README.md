@@ -3,10 +3,10 @@
 ![logo1](https://user-images.githubusercontent.com/87253195/150742958-80e2497b-22fe-4be5-83cf-9921035229df.png)
 
 # 概要
-"FilTube"は、YouTube data API v3を使用した、ストリーミングサービスです。<br>
-FIlTubeの特徴は、関連動画を一切見せないことにより、<br>
-ユーザーに見たい動画をいち早く見つけてもらいたい思いで開発しました。<br>
-また差別化として、Youtubeには便利な検索機能があります。その機能をユーザーに簡単に使用できるようにUIも考えました。<br>
+"FilTube"は、YouTubeDataAPI v3を使用した、ストリーミングサービスです。<br>
+FIlTubeの特徴は、**関連動画を一切見せない**ことにより、<br>
+ユーザーに**見たい動画をいち早く見つけてもらいたい**思いで開発しました。<br>
+また**差別化として、Youtubeには便利な検索機能があります。その機能をユーザーに簡単に使用できるようにUIも考えました。**<br>
 <br>
 
 ※**このアプリケーションは開発途中になります。**
@@ -65,39 +65,20 @@ Youtube動画が検索ができるようになっています。<br><br>
 
 ![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)<br><br>
 
+
 # 制作背景
 私自身Youtubeで何か調べ物をする際や、見たい動画を検索するなどで使用しておりましたが、<br>
-Youtubeの設計上、関連動画は避けて通れないものになっております。<br>
+Youtubeの設計上、**関連動画は避けて通れないものになっております。**<br>
 **そのため目的以外の動画を開いてしまい、時間を取られるという傾向にありました。**<br>
 そこで、**今回無駄な動画を全て"Filter"することで、見たい動画に辿り着かせる**サービスを開発しました。<br>
-また、**差別化のポイントとして検索機能をユーザーに簡単に使えるようにして、より正確な検索をできるように設計**しました。<br>
-
-
+また、**差別化のポイントとして検索機能をユーザーに簡単に使えるようにして、より正確な検索をできるように設計**しました。<br><br>
 
 
 # Requirement
 Ruby 2.6.5<br>
 Ruby on Rails 6.0.0<br>
 Youtube data v3 API<br>
-MYSQL 5.7<br>
-
-
-
-
-
-
-
-
-# テーブル設計
-
-## videos テーブル
-
-| Column              | Type      | Options                    |
-| ------------------- | --------- | -------------------------- |
-| firstword           | string    | null: false                |
-| secondword          | string    |                            |
-| choice_id           | integer   | null: false                |
-| result              | integer   | null: false                |
+MYSQL 5.7<br><br>
 
 
 # OTHER
