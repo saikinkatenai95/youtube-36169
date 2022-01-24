@@ -30,11 +30,11 @@
   Youtube動画が検索ができるようになっています。<br><br>
   ![home2](https://user-images.githubusercontent.com/87253195/150743448-5e4548d2-4b2c-4c86-aecd-6e72a125ff5b.png)<br><br>
 
-## 検索結果
+# 検索結果
   "米津玄師"と入力し、youtubeの"米津玄師"に関する動画が一覧で表示することができます。<br><br>
   ![search1](https://user-images.githubusercontent.com/87253195/150743568-28f7d4ed-4a81-4e57-aa68-58794994f7bc.png)<br><br>
 
-## サイト内での操作
+# サイト内での操作
   サイト内で動画をそのまま視聴可能、YouTubeページに飛ぶことも可能にしています。<br>
   **サイト内で閲覧できることで、ユーザーがページを切り替える手間が減ります。**<br><br>
   ![demo1](https://user-images.githubusercontent.com/87253195/150743549-748a8804-0932-458c-83a5-d0cc7480d3c4.png)<br><br>
