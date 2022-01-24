@@ -3,10 +3,10 @@
 ![logo1](https://user-images.githubusercontent.com/87253195/150742958-80e2497b-22fe-4be5-83cf-9921035229df.png)
 
 # 概要
-"FilTube"は、YouTubeDataAPI v3を使用した、ストリーミングサービスです。<br>
-FIlTubeの特徴は、**関連動画を一切見せない**ことにより、<br>
-ユーザーに**見たい動画をいち早く見つけてもらいたい**思いで開発しました。<br>
-また**差別化として、Youtubeには便利な検索機能があります。その機能をユーザーに簡単に使用できるようにUIも考えました。**<br>
+  "FilTube"は、YouTubeDataAPI v3を使用した、ストリーミングサービスです。<br>
+  FIlTubeの特徴は、**関連動画を一切見せない**ことにより、<br>
+  ユーザーに**見たい動画をいち早く見つけてもらいたい**思いで開発しました。<br>
+  また**差別化として、Youtubeには便利な検索機能があります。その機能をユーザーに簡単に使用できるようにUIも考えました。**<br>
 <br>
 
 ※**このアプリケーションは開発途中になります。**
@@ -21,11 +21,11 @@ ID:admin, PASS:2222
 
 
 # top page
-トップページは見た目はUIを意識してシンプルに仕上げました。<br><br>
+トップページはUIを意識してシンプルに仕上げました。<br><br>
 ![home1](https://user-images.githubusercontent.com/87253195/150743345-02c21728-d6bc-42e7-a192-9523e5be0b70.png)<br><br>
 
 # 通常検索機能 紹介
-通常検索はgoogleの検索バーと同様に検索バーにキーワードを入力することで<br>
+通常検索はgoogleと同様に検索バーにキーワードを入力することで<br>
 Youtube動画が検索ができるようになっています。<br><br>
 ![home2](https://user-images.githubusercontent.com/87253195/150743448-5e4548d2-4b2c-4c86-aecd-6e72a125ff5b.png)<br><br>
 
