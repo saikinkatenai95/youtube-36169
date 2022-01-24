@@ -4,7 +4,14 @@ FIlTubeの特徴は、関連動画を一切見せないことにより、<br>
 ユーザーに見たい動画をいち早く見つけてもらいたい思いで開発しました。<br>
 また差別化として、Youtubeには便利な検索機能があります。その機能をユーザーに簡単に使用できるようにUIも考えました。<br>
 <br>
+:::note info
 ※このアプリケーションは開発途中になります。
+
+## 本番環境
+URL:https://youtube-36169.herokuapp.com/
+ID:admin   PASS:2222
+<br>
+<br>
 
 # DEMO
 
@@ -14,6 +21,8 @@ FIlTubeの特徴は、関連動画を一切見せないことにより、<br>
 <a href="https://gyazo.com/76babefd601aa1dc2cd60de9c6519812"><img src="https://i.gyazo.com/76babefd601aa1dc2cd60de9c6519812.gif" alt="Image from Gyazo" width="1000"/></a>
 
 # より高度な検索
++ボタンを押すことで、より高度な検索ができるようになります。
+
 Filterをかけることでより精密かつ高度な検索ができるようになります。<br>
 
 <a href="https://gyazo.com/e54cf5753e4e046d37edb8aa6adbdff9"><img src="https://i.gyazo.com/e54cf5753e4e046d37edb8aa6adbdff9.gif" alt="Image from Gyazo" width="1000"/></a>
@@ -25,10 +34,6 @@ Filterをかけることでより精密かつ高度な検索ができるよう�
 
 
 
-# 本番環境
-URL:https://youtube-36169.herokuapp.com/
-<br>
-<br>
 
 # 制作背景
 私自身Youtubeで何か調べ物をする際や、見たい動画を検索するなどで使用しておりましたが、<br>
