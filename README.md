@@ -41,6 +41,9 @@ Youtube動画が検索ができるようになっています。<br><br>
 
 # より高度な検索
 +ボタンを押すことで選択肢が増え、**より高度な検索ができるようになります。**<br><br>
+
+![home3](https://user-images.githubusercontent.com/87253195/150743495-d39fa43f-4447-47b8-be7b-92dae645d1d1.png)<br><br>
+
 ### 増える検索項目
 1. 第二キーワード
 1. Filter機能(activeHashで設置)
@@ -53,7 +56,6 @@ Youtube動画が検索ができるようになっています。<br><br>
     1. 48件
 
 
-![home3](https://user-images.githubusercontent.com/87253195/150743495-d39fa43f-4447-47b8-be7b-92dae645d1d1.png)<br><br>
 
 # 検索結果
 今回は"米津玄師"でも"Lemon"を含めない検索をしました。<br>
