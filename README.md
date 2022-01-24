@@ -1,3 +1,7 @@
+<br>
+
+![logo1](https://user-images.githubusercontent.com/87253195/150742958-80e2497b-22fe-4be5-83cf-9921035229df.png)
+
 # 概要
 "FilTube"は、YouTube data API v3を使用した、ストリーミングサービスです。<br>
 FIlTubeの特徴は、関連動画を一切見せないことにより、<br>
@@ -15,28 +19,33 @@ ID:admin   PASS:2222
 <br>
 
 # DEMO
+![home1](https://user-images.githubusercontent.com/87253195/150743345-02c21728-d6bc-42e7-a192-9523e5be0b70.png)
 
-![logo1](https://user-images.githubusercontent.com/87253195/150742958-80e2497b-22fe-4be5-83cf-9921035229df.png)
+![home2](https://user-images.githubusercontent.com/87253195/150743448-5e4548d2-4b2c-4c86-aecd-6e72a125ff5b.png)
+
+![home3](https://user-images.githubusercontent.com/87253195/150743495-d39fa43f-4447-47b8-be7b-92dae645d1d1.png)
+
+
+![demo1](https://user-images.githubusercontent.com/87253195/150743549-748a8804-0932-458c-83a5-d0cc7480d3c4.png)
+
+![search1](https://user-images.githubusercontent.com/87253195/150743568-28f7d4ed-4a81-4e57-aa68-58794994f7bc.png)
+
+![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)
 
 
 # 通常検索
 通常検索はgoogleの検索バーと同様にシンプルにYoutube動画が検索ができるようになっています。<br>
 
-<a href="https://gyazo.com/76babefd601aa1dc2cd60de9c6519812"><img src="https://i.gyazo.com/76babefd601aa1dc2cd60de9c6519812.gif" alt="Image from Gyazo" width="1000"/></a>
+
 
 # より高度な検索
 +ボタンを押すことで、より高度な検索ができるようになります。
 
 Filterをかけることでより精密かつ高度な検索ができるようになります。<br>
 
-<a href="https://gyazo.com/e54cf5753e4e046d37edb8aa6adbdff9"><img src="https://i.gyazo.com/e54cf5753e4e046d37edb8aa6adbdff9.gif" alt="Image from Gyazo" width="1000"/></a>
 
 
 # 検索結果
-
-<a href="https://gyazo.com/c25dd14296788730082e4e8a9c3f3cb3"><img src="https://i.gyazo.com/c25dd14296788730082e4e8a9c3f3cb3.gif" alt="Image from Gyazo" width="1000"/></a>
-
-
 
 
 # 制作背景
