@@ -12,7 +12,7 @@
 <% if result == 24 %>
   <% if choice_id == 1 %>
     <% keyword = "#{firstword} #{secondword}"%>
-    <% @youtube_data= find_video(keyword)%>
+    <% @youtube_data = find_video(keyword)%>
   <% elsif choice_id ==  2 %>
     <% keyword = "#{firstword} -#{secondword}"%>
     <% @youtube_data= find_video(keyword)%>
