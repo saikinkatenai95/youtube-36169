@@ -26,7 +26,7 @@
 .header{
   background-color: #fffdf7;
   // backdrop-filter: saturate(180%) blur(20px);
-  width: 83%;
+  width: 60%;
   position: sticky;
   top:0;
   z-index: 999;
@@ -43,16 +43,30 @@
   height: 90%;
 }
 
+
 .sub-search-box{
   display: flex;
   margin-top: 20px;
+  width: 100%;
+  justify-content: right;
+
 }
 
 .search-bar{
   backdrop-filter: saturate(180%) blur(20px);
-  width: 17%;
+  width: 40%;
+  display: flex;
 }
 
+.sub-firstword{
+  width: 20%;
+  text-align: right;
+  font-weight: 600;
+}
+
+.ad-form{
+  width: 100%;
+}
 
 .video-page{
   width: auto;
@@ -150,6 +164,7 @@
   background: inherit;
   border-radius: inherit;
   transform: rotate(90deg);
+  color: #949191;
 }
 
 
