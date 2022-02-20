@@ -48,6 +48,7 @@ end
 
   def index
     @videos = Video.order(updated_at: :desc).limit(1)
+    @video = Video.new
   end
 
   def new
