@@ -44,8 +44,10 @@
     </div>
     <div class=search-bar>
       <div class=sub-search-box>
-        <%= "#{@firstword}}+"%>
-        <%= form_with model:@video, local: true do |f| %>
+        <div class=sub-firstword>
+          <%= "#{@firstword}+"%>
+        </div>
+        <%= form_with model:@video, class: "ad-form", local: true do |f| %>
           <%= f.hidden_field :firstword, :value => @firstword %>
           <%= f.text_field :secondword %>
           <%= f.collection_select(:choice_id, Choice.all, :id, :name, {}, {class:"video-select"}) %>
