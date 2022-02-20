@@ -23,7 +23,6 @@ def find_video(keyword, after: 5.years.ago, before: Time.now)
       published_before: before.iso8601
     }
       service.list_searches(:snippet, opt)
-
   end
 end
 
