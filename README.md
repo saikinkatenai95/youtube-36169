@@ -88,7 +88,7 @@
 
 # 検索結果
  グルメでもハンバーグにフォーカスを当て検索を実施した結果<br>
- ハンバーグがタイトルや概要欄に含まれている動画のみHITするようになりました。<br>
+ ハンバーグがタイトルや概要欄に含まれている動画のみHITするようになりました。<br><br>
 
  <img width="1430" alt="スクリーンショット 2022-02-21 18 08 31" src="https://user-images.githubusercontent.com/87253195/154923366-835d7ffd-ea91-4723-b88f-fc95998fa2c5.png">
 
@@ -99,8 +99,8 @@
   Ruby 2.6.5<br>
   Ruby on Rails 6.0.0<br>
   Youtube data v3 API<br>
-  MYSQL 5.7<br><br>
-  JavaScript<br>
+  MYSQL 5.7<br>
+  JavaScript<br><br>
 
 
 # Author
