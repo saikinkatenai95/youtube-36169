@@ -75,7 +75,7 @@
   結果全く異なる検索結果が出てきました。<br>
   他にも"タイトル完全一致検索"や"or検索"など便利な検索機能を簡単に使用することが可能になります。<br><br>
 
-  ![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)<br><br>
+  ![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)<br><br><br><br>
 
 # 追加検索機能
   検索後でも目的の動画が見つからなかった場合、<br>
