@@ -13,7 +13,7 @@
 
 .new-logo{
   width: 200px;
-  margin: 160px 0px 0px 160px;
+  margin: 160px 0px 0px 180px;
 }
 .nav{
   display: flex;
@@ -84,6 +84,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .form{
@@ -94,7 +95,11 @@
 
 .first-form-box{
   display: flex;
-  margin-left: 80px;
+  margin: 0 auto;
+}
+
+.first-form{
+  margin: 0 auto;
 }
 
 
@@ -132,13 +137,17 @@
 }
 
 #sub_search{
-  margin: 0px 0px 0px 80px;
+  margin: 0px 0px 0px 100px;
 }
 
 .button-space{
-  position: relative;
-  width: 800px;
-  margin:25px 0px 0px 320px
+  width: 100%;
+  margin:25px 0px 0px 0px;
+}
+
+.click-space{
+  width: 100px;
+  margin: 0 auto;
 }
 
 #switch_btn {
@@ -149,7 +158,7 @@
   line-height: 1;
   width: 30px;
   height: 5px;
-  background: currentColor;
+  background: #111211;
   border-radius: 10px;
   position: relative;
 }
@@ -160,11 +169,17 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: inherit;
+  height: 120%;
+  background: #111211;
   border-radius: inherit;
   transform: rotate(90deg);
   color: #949191;
+}
+
+#switch_btn:after {
+  top: 3px;
+  left: -3px;
+  transform: rotate(90deg);
 }
 
 
@@ -203,4 +218,5 @@ a{
 .categorylist{
   list-style: none;
 }
+
 
