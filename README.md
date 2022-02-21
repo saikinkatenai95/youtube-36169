@@ -78,8 +78,9 @@
   ![search2](https://user-images.githubusercontent.com/87253195/150743577-08782e0f-4ff7-499c-8064-8d4c8b572a7f.png)<br><br><br><br>
 
 # 追加検索機能
+  グルメと検索しただけで、目的の動画が出ておりません。<br>
   検索後でも目的の動画が見つからなかった場合、<br>
-  写真の右上の検索フォームより高度な検索ができるようになります。<br><br>
+  **写真の右上の検索フォームより高度な検索ができるようになります。**<br><br>
 
   <img width="836" alt="スクリーンショット 2022-02-21 18 07 54" src="https://user-images.githubusercontent.com/87253195/154923354-2a77bed2-81cd-4318-aa5f-fbc634e624e7.png">
 
